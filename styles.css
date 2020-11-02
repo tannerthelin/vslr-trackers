@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Light_3.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Int Circular Pro 3";
+  src: url("/fonts/IntCircularPro-Medium_3.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+	font-family: "Int Circular Pro 3";
+	src: url("/fonts/IntCircularPro-Black_3.ttf") format("ttf");
+	font-weight: 800;
+  }
+
+body {
+	background-color: white;
+	color: #000;
+	font-family: "Courier", sans-serif;
+	text-transform: uppercase;
+	margin: 0px;
+	letter-spacing: 1px;
+}
+
+td {
+	text-align: center;
+	font-size: 21px;
+	padding: 20px 0px;
+	border-bottom: 1px dashed #C1C1C1;
+	font-weight: 500;
+}
+
+.headers {
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #787B7D;
+	font-size: 21px;
+	letter-spacing: 3px;
+}
+
+#table-content {
+	width: 100%; 
+	margin: auto;
+	table-layout: fixed;
+	border-spacing: 0px;
+}
+
+.WC-column {
+	color: #787B7D;
+}
+
+.office-column {
+	color: #B3B3B3;
+}
+
+
+
+.name-column {
+	width: 35%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.last {
+	text-align: right;
+}
+
+#page-title {
+	position: fixed;
+	background-color: #16191E;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 90px 0px;
+	margin: 0px;
+}
+
+a {
+	text-align: center;
+	font-size: 31px;
+	padding: 20px 0px;
+	color: 414141;
+	display: block;	
+	-webkit-text-decoration-color: #B8B39D;
+  	text-decoration-color: #B8B39D;
+}
+
+.column-container {
+	margin-top: 0px;
+	display: flex;
+	padding: 0px 80px;
+	margin: auto;
+	justify-content: space-around;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
+}
+
+.orange {
+	color: #FF5C35;
+}
+
+.title {
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "IntCircularPro-Medium_3", sans-serif;
+	font-size: 21px;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 50px 0px 40px 0px;
+	margin: 0px;
+}
+
+.total_pace {
+	/* color: #FF5C35; */
+}
+
+.row {
+	padding: 0px 30px;
+}
+
+.section-2 {
+	background-color: #F8F8F8;
+}
+
+.section-3 {
+	background-color: #f2f2f2;
+}
+
+.section-4 {
+	background-color: #EEEEEE;
+}
+
+.below-pace {
+	color: #B3B3B3;
+	background-color: #F2F2F2;
+}
+
+@media only screen and (max-width: 600px) {
+
+	td {
+		font-size: 18px;		
+		padding: 15px 0px;
+	}
+ 	
+ 	#table-content {
+ 		table-layout: auto;
+ 	}
+}
