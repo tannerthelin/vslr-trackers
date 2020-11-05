@@ -102,8 +102,16 @@ a {
 	flex-wrap: wrap;
 }
 
+.blue {
+	color: #0087FF;
+}
+
 .orange {
 	color: #FF5C35;
+}
+
+.small-text {
+	font-size: 14px;
 }
 
 .title {
