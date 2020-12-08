@@ -159,5 +159,9 @@ a {
  	
  	#table-content {
  		table-layout: auto;
- 	}
+	 }
+	 
+	 .name-column {
+		 padding-left: 2px;
+	 }
 }
