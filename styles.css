@@ -153,8 +153,8 @@ a {
 @media only screen and (max-width: 600px) {
 
 	td {
-		font-size: 18px;		
-		padding: 15px 0px;
+		font-size: 13px;		
+		padding: 8px 0px;
 	}
  	
  	#table-content {
