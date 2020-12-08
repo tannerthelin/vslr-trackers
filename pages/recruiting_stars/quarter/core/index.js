@@ -25,8 +25,8 @@ for (var i = 0; i < data.length; i++) {
 			'<tr class="row">' +
 			'<td class="name-column">' + data[i].name + '</td>' +
 			'<td class="office-column">' + data[i].office + '</td>' +
-			'<td class="current_points">' + data[i].q1_star + '</td>' +
 			'<td class="current_points">' + data[i].q4_star + '</td>' +
+			'<td class="current_points">' + data[i].q4_score + '</td>' +
 			'</tr>'
 		); 
 		}
