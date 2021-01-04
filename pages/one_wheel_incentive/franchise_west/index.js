@@ -9,7 +9,7 @@ simpleSheet: true } )
 function showInfo(data, tabletop) {
 for (var i = 0; i < data.length; i++) {
 	// Looping through each row of the spreadsheet
-	if (data[i].league_level === "FRANCHISE" && data[i].coast === "west") {		
+	if (data[i].league_level === "FRANCHISE" && data[i].coast === "WEST") {		
 		$("#table-body").append(
 		'<tr class="row">' +
 		'<td class="name-column">' + data[i].name + '</td>' +
