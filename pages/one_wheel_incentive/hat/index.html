@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>One Wheel Incentive</title>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+	<script type='text/javascript'>    
+	  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1huopDESH-JrUJqVN1OiIOuULEYRPx-l4Gm0wf2sr7uk/edit?usp=sharing';
+
+	  function init() {
+	    Tabletop.init( { key: publicSpreadsheetUrl,
+	                     callback: showInfo,
+	                     simpleSheet: true } )
+	  }
+
+	  function showInfo(data, tabletop) {
+	    alert('Successfully processed!')
+	    console.log(data);
+	  }
+
+	  window.addEventListener('DOMContentLoaded', init)
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+	<table id="table-content" class="my-table">
+	  <tbody id="table-body"></tbody>
+	</table>
+
+</body>
+</html>
