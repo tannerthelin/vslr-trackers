@@ -20,7 +20,7 @@ function showInfo(data, tabletop) {
 
 for (var i = 0; i < data.length; i++) {
 	// Looping through each row of the spreadsheet
-	if (republic.includes(data[i].office)) {		
+	if (topo.includes(data[i].office)) {		
 			$("#table-body").append(
 			'<tr class="row">' +
 			'<td class="name-column">' + data[i].name + '</td>' +
